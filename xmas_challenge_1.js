@@ -1,16 +1,16 @@
 /**
 https://github.com/wswieciekodu/ChristmasChallenge
-Wyzwanie Świąteczne @wswieciekodu
-     * Dzień 1
-     * Mikołaj musi odwiedzić 3 miasta o współrzędnych (1,1), (4,5), (11,5) w podanej kolejności.
-     * Mikołaj startuje z punktu(1,1) spod stacji paliw ;)
-     * Na 10 jednostek odległości jego sanie zużywają 20 litrów magicznego paliwa.
-     * Ile paliwa potrzebuje na całą trasę? Do policzenia przygotuj odpowiedni kod.
-     * Obliczony wynik wypisz na ekranie.
+Christmas Challenge @wswieciekodu
+     * Day 1.
+     * Santa must visit 3 cities with coordinates (1,1), (4,5), (11,5) in the order given.
+     * Santa takes off from point(1,1) from under the gas station ;)
+     * For 10 units of distance his sleigh uses 20 liters of magic fuel.
+     * How much fuel does he need for the entire route? To count, prepare the corresponding code.
+     * The calculated result write on the screen.
      *
-     * Oblicz w kodzie dystans miedzy miastami, a nastepnie policz niezbedną ilosc paliwa.
-     * Do obliczenia dystansu przygotuj odpowiednią funkcję.
-     * Do obliczeń matematycznych użyj funkcji z biblioteki Twojego jezyka.
+     * Calculate the distance between cities in the code, and then calculate the necessary amount of fuel.
+     * To calculate the distance, prepare the appropriate function.
+     * For mathematical calculations use functions from your language library.
 */
 
 function dystans(x1, y1, x2, y2) {

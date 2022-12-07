@@ -10,28 +10,25 @@ Christmas Challenge @wswieciekodu
      * So that the Christmas tree generates itself! The Christmas tree can simply be a triangle, or it can be composed of several layers. :)
 */
 
-
-/* TO FIX
 function xmasTree(height) {
 
-    for ( let x = 0 ; x < height; x++) {
+    for (let i = 0; i < height; i++) {
         
-        for ( let y = 0; y <= height * 2; y++) {
+        for (let j=height-1; j>i; j--) {
             
-             if (x >= height - y && x >= y - height) {
-                 
-                 document.write("*");
-                 
-                } 
-             
-             else document.write(" ");
+           document.write("&nbsp&nbsp");
+           
         }
         
-    document.write("<br>");
-        
+        for (let k=0; k<=(i*2); k++) {
+      
+           document.write("*");
+   
+        }
+   
+        document.write("<br>");
     }
 
 }
 
-xmasTree(5);
-*/
+xmasTree(10);

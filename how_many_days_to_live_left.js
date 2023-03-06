@@ -4,9 +4,9 @@ function lifeInWeeks(age) {
 
     age = prompt("How old are you?");
     
-    var days = 90 * 365 - Math.round(age * 365);
-    var weeks = 90 * 52 - Math.round(age * 52);
-    var months = 90 * 12 - Math.round(age * 12);
+    let days = 90 * 365 - Math.round(age * 365);
+    let weeks = 90 * 52 - Math.round(age * 52);
+    let months = 90 * 12 - Math.round(age * 12);
     
     alert("You have " + days + " days, " + weeks + " weeks and " + months + " months left.");
 }

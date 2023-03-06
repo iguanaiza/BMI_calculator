@@ -10,6 +10,8 @@ Christmas Challenge @wswieciekodu
      * List the drawn gifts on the screen. Make sure that the drawn gifts are unique.
 */
 
+let gifts = [ "Perfume", "Socks", "Sweater", "Cup", "Hat", "Tea", "Coffee", "Clock", "Bag", "Book", "Wallet", "Cream", "Earrings"];
+
 function randomGifts(list) {
 
     let a = list.length;
@@ -26,6 +28,4 @@ function randomGifts(list) {
     else return randomGifts(list);
 }
 
-const gifts = [ "Perfume", "Socks", "Sweater", "Cup", "Hat", "Tea", "Coffee", "Clock", "Bag", "Book", "Wallet", "Cream", "Earrings"];
-
-console.log(randomGifts(gifts));
+randomGifts(gifts);
